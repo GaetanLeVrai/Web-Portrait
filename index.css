@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(vraifond.png);
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Alkalami', serif;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+div h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 30%;
+    color: white;
+    font-size: 50px;
+
+}
+
+#section1 div p{
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 250px;
+    border: 5px black solid;
+    border-radius: 10px;
+    margin: 5px 25% 0 25%;
+    font-size: 25px;
+}
+
+#section1 div{
+    text-align: center;
+}
+
+
+#header1 { /* Modification de la balise native header */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0; 
+    }
+
+h1 {
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 20% 18%;
+    font-size: large;
+    background-image: linear-gradient(
+        -225deg,
+        white 0%,
+        black 29%,
+        white 67%,
+        black 100%
+      );
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 2s linear infinite;
+      display: inline-block;
+          font-size: 100px;
+}
+
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+a {
+    text-decoration: none;
+    display: flex;
+    color: white;
+    margin: 2%;
+}
+
+
+#section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    flex-direction: row;
+}
+
+
+#sec , #sec1, #sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+    height: 300px;
+    width: 450px;
+    border-radius: 10px;
+    flex-direction: column;
+    
+}
+
+
+
+
+#section2  p{
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 250px;
+    width: 350px;
+    border: 5px black solid;
+    border-radius: 10px;
+    margin: 5px 25% 0 25%;
+    
+}
+
+
+#section3 div p{
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 250px;
+    border: 5px black solid;
+    border-radius: 10px;
+    margin: 5px 25% 0 25%;
+    font-size: 25px;
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+}
+#section4{
+    display:flex;
+}
+
+
+#section4 div{
+    text-align: center;
+}
+
+#section4 div p{
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 500px;
+    border: 5px black solid;
+    border-radius: 10px;
+    margin: 5px 25% 0 25%;
+    font-size: 25px;
+}
