@@ -23,7 +23,7 @@ section{
 }
 
 
-div h2{
+h2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,20 +33,30 @@ div h2{
 
 }
 
+#section1 div img{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-left: 20%;
+}
+
 #section1 div p{
     text-align: center;
     background-color: white;
     color: black;
-    height: 250px;
+    width: 50%;
+    height: auto;
     border: 5px black solid;
     border-radius: 10px;
-    margin: 5px 25% 0 25%;
-    font-size: 25px;
+    margin-left: 5%;
+    font-size: 1.4em;
 }
 
-#section1 div{
-    text-align: center;
+#pres{
+    display: flex;
+    flex-direction: row;
 }
+
 
 
 #header1 { /* Modification de la balise native header */
@@ -139,7 +149,7 @@ a {
     text-align: center;
     background-color: white;
     color: black;
-    height: 250px;
+    height: auto;
     border: 5px black solid;
     border-radius: 10px;
     margin: 5px 25% 0 25%;
@@ -168,4 +178,28 @@ h3{
     border-radius: 10px;
     margin: 5px 25% 0 25%;
     font-size: 25px;
+}
+
+#section5 div img{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    padding-right: 20%;
+}
+
+#section5 div p{
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 50%;
+    height: auto;
+    border: 5px black solid;
+    border-radius: 10px;
+    margin-left: 10%;
+    font-size: 1.4em;
+}
+
+#passion{
+    display: flex;
+    flex-direction: row;
 }
