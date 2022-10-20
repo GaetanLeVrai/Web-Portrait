@@ -1,205 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-html{
-    scroll-behavior: smooth;
-}
-
-body{
-    background-image: url(vraifond.png);
-    background-attachment: fixed;
-    color: white;
-    font-family: 'Alkalami', serif;
-}
-
-section{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-}
-
-
-h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 100px 30%;
-    color: white;
-    font-size: 50px;
-
-}
-
-#section1 div img{
-    display: flex;
-    align-items: center;
-    width: 50%;
-    padding-left: 20%;
-}
-
-#section1 div p{
-    text-align: center;
-    background-color: white;
-    color: black;
-    width: 50%;
-    height: auto;
-    border: 5px black solid;
-    border-radius: 10px;
-    margin-left: 5%;
-    font-size: 1.4em;
-}
-
-#pres{
-    display: flex;
-    flex-direction: row;
-}
+<!DOCTYPE html>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>Mon autoportrait</title>
+</head>
+    <header id="header1">
+        <a href="#section1">
+            Présentation
+        </a>
+        <a href="#a">
+            Intelligences multiples 
+        </a>
+        <a href="#section3">
+            Etude
+        </a>
+        <a href="#section4">
+            Déception
+        </a>
+        <a href="#section5">
+            Passion
+        </a>
+    </header>
+<body>
+    <h1> Mon web-portrait</h1>
 
 
+    <section id= "section1">
+        <h2>1) Présentation générale</h2> 
+        <div id="pres">
+            <img src = "moiprime.png" title = "Une photo de moi à mon prime">  
+            <div>
+                <p>
+                    Je m’appelle Gaetan Szezcpanski, j’ai 18 ans et j'habite à Nancy. Je suis d'origine polonaise et française (mais je sais pas parler polonais). Voici donc ci-dessous une présentation plus détaillé sur moi: 
+                </p>
+            </div>          
+        </div>
+    </section>
 
-#header1 { /* Modification de la balise native header */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    position: sticky;
-    top: 0; 
-    }
-
-h1 {
-    display : flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    margin: 20% 18%;
-    font-size: large;
-    background-image: linear-gradient(
-        -225deg,
-        white 0%,
-        black 29%,
-        white 67%,
-        black 100%
-      );
-      background-clip: border-box;
-      background-size: 200% auto;
-      color: #fff;
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: textclip 2s linear infinite;
-      display: inline-block;
-          font-size: 100px;
-}
-
-
-@keyframes textclip {
-    to {
-      background-position: 200% center;
-    }
-  }
-
-a {
-    text-decoration: none;
-    display: flex;
-    color: white;
-    margin: 2%;
-}
-
-
-#section2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5%;
-    flex-direction: row;
-}
-
-
-#sec , #sec1, #sec2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 50px;
-    height: 300px;
-    width: 450px;
-    border-radius: 10px;
-    flex-direction: column;
     
-}
+    <div id="a">
+        <h2>2) Mes intelligences multiples</h2>
+    </div>
 
+    <section id = "section2">
+        <div id = "sec">
+                <h3>Interpersonnelle</h3>
+                <p>
+                    Je suis assez à l’aise avec les gens que ça soit un groupe d’amis ou même un groupe d’inconnus, j’arrive toujours à trouver un sujet de discussion et j’aime parler avec des gens. Par exemple j’adore sortir avec des amis et faire des activités avec eux, je pense même que ça me heureux et que je ne pourrais pas m’en passer. 
+        </div>
 
+    <div id = "sec1">
+        <h3>Intrapersonelle</h3>
+            <p>
+                Malgré que j’adore passer du temps avec des gens, il est vrai qu’être parfois seul est bénéfique. En effet, on peut réfléchir sur nous même ou même se poser pour réfléchir sur un choix compliqué. Par exemple, passer une soirée seul sans réseaux sociaux pour se reconnecter avec nous même. 
+            </p>
+    </div>
 
-
-#section2  p{
-    text-align: center;
-    background-color: white;
-    color: black;
-    height: 250px;
-    width: 350px;
-    border: 5px black solid;
-    border-radius: 10px;
-    margin: 5px 25% 0 25%;
+    <div id = "sec2">
+        <h3>Logique</h3>
+            <p>
+                J’ai toujours été bon en maths (une note de 16 au bac) et j’ai toujours adoré les jeux de logiques donc cela a du développer ma logique en générale. Je pense même que je peux regrouper l’interpersonnelle avec la logique car jouer à des jeux de logiques à plusieurs est vraiment quelque chose de mieux que de jouer tout seul.  
+            </p>
+    </div>
+</section>
     
-}
+    <section id = "section3">
+        <div>
+            <h2>3) Mes études</h2>   
+            <p>
+                Jusqu’au collège, j'ai eu des études normaux mais lors du lycée, j'ai choisis un des seuls lycée proche de chez moi qui avait comme spécialité NSI car je savais déjà vers quel avenir. En année de première j'ai pris comme spécialité donc NSI, Maths et physique-chimie, puis lors de mon année de terminale, la spécialité que j'ai enlevé était la physique logique. Puis en fin, sur parcours sup, mon choix n°1 était l'IUT de Metz qui malheureusement ne m'a pas accepté mais mon second choix qui était l'IUT de Nancy m'a elle accepté.
+            </p>
+        </div>
+    </section>
 
 
-#section3 div p{
-    text-align: center;
-    background-color: white;
-    color: black;
-    height: auto;
-    border: 5px black solid;
-    border-radius: 10px;
-    margin: 5px 25% 0 25%;
-    font-size: 25px;
-}
+    <section id = "section4">
+        <div>
+            <h2> 4) Ma plus grande déception</h2>
+            <p>
+                Ma plus grande expérience ratée est lors de mon année de 3ème en technobot où on devait créer un robot sur une année afin de faire une compétition à la fin de l’année. Tous se passer bien pendant l’année jusqu’à la fin de l’année où on m’a annoncé que mon robot n’était pas prêt et que donc ce que j’ai fait à l’année n’a servi à rien. J’ai été dégoûté et déçu mais malgré ça après réflexion cela m’a permis de comprendre que l’organisation est quelque chose de primordial et que le travail de groupe doit être fait par tous les membres d’un groupe.
+            </p>  
+        </div>
+    </section>
 
-h3{
-    color: white;
-    font-size: 25px;
-}
-#section4{
-    display:flex;
-}
+    <section id = "section5">
+        <h2> 5) Mes passions </h2>
+        <div id="passion">    
+            <div>
+                <p>
+                    Ma plus grande passion est sans aucun doute One pièce le manga écrit par Oda Eiichirō qui retrace l'histoire de luffy, un jeune pirate. 
+                    Une autre de mes passions est les jeux vidéos, tout type allant du fps au jeu asymétrique(jeu d'équipe souvent 4 contre une autre personne, elle seule). Mon jeu préféré actuellement est Dead by Daylight(jeu asymétrique) et mes jeux nostalgiques sont Pokémon (noir et blanc) et wii sport.
+                </p>
+            </div>
+            <img src = "passiononepiece.png" title = "One piece meilleur manga">
+    </section>
 
 
-#section4 div{
-    text-align: center;
-}
-
-#section4 div p{
-    text-align: center;
-    background-color: white;
-    color: black;
-    height: 500px;
-    border: 5px black solid;
-    border-radius: 10px;
-    margin: 5px 25% 0 25%;
-    font-size: 25px;
-}
-
-#section5 div img{
-    display: flex;
-    align-items: center;
-    width: 60%;
-    padding-right: 20%;
-}
-
-#section5 div p{
-    text-align: center;
-    background-color: white;
-    color: black;
-    width: 50%;
-    height: auto;
-    border: 5px black solid;
-    border-radius: 10px;
-    margin-left: 10%;
-    font-size: 1.4em;
-}
-
-#passion{
-    display: flex;
-    flex-direction: row;
-}
+</body>
+<script>
+    AOS.init();
+  </script>
+</html>
