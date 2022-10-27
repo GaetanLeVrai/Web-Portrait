@@ -10,7 +10,8 @@ html{
 }
 
 body{
-    background-image: url(vraifond.png);
+    /* background-image: url(vraifond.png); */
+    background-color: gray;
     background-attachment: fixed;
     color: white;
     font-family: 'Alkalami', serif;
@@ -23,20 +24,11 @@ section{
 }
 
 
-h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 100px 30%;
-    color: white;
-    font-size: 50px;
-
-}
 
 #section1 div img{
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 80%;
     padding-left: 20%;
 }
 
@@ -48,7 +40,7 @@ h2{
     height: auto;
     border: 5px black solid;
     border-radius: 10px;
-    margin-left: 5%;
+    margin-left: 100px;
     font-size: 1.4em;
 }
 
@@ -93,6 +85,22 @@ h1 {
           font-size: 100px;
 }
 
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 30%;
+    color: white;
+    font-size: 50px;
+
+}
+
+.section2 h3{
+    margin-top: 50px;
+    text-align: center;
+    font-size: xx-large;
+}
+
 
 @keyframes textclip {
     to {
@@ -108,12 +116,11 @@ a {
 }
 
 
-#section2{
+.section2{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 5%;
-    flex-direction: row;
 }
 
 
@@ -125,24 +132,32 @@ a {
     height: 300px;
     width: 450px;
     border-radius: 10px;
-    flex-direction: column;
     
 }
 
+#sec1{
+    flex-direction: row-reverse;
+}
 
+#sec1 img{
+    margin-left: 100px;
+}
 
-
-#section2  p{
+.section2  p{
     text-align: center;
     background-color: white;
     color: black;
-    height: 250px;
-    width: 350px;
+    height: auto;
+    width: 500px;
     border: 5px black solid;
     border-radius: 10px;
-    margin: 5px 25% 0 25%;
+    margin-left: 10%;
+    margin-top: 100px;
+    font-size: 25px;
     
 }
+
+
 
 
 #section3 div p{
@@ -183,19 +198,19 @@ h3{
 #section5 div img{
     display: flex;
     align-items: center;
-    width: 60%;
+    width: 90%;
     padding-right: 20%;
 }
 
-#section5 div p{
+#section5 div ul{
     text-align: center;
     background-color: white;
     color: black;
-    width: 50%;
+    width: 70%;
     height: auto;
     border: 5px black solid;
     border-radius: 10px;
-    margin-left: 10%;
+    margin-left: 20%;
     font-size: 1.4em;
 }
 
