@@ -11,7 +11,8 @@ html{
 
 body{
     /* background-image: url(vraifond.png); */
-    background-color: gray;
+    /* background-color: mediumaquamarine; */
+    background-color: #333;
     background-attachment: fixed;
     color: white;
     font-family: 'Alkalami', serif;
@@ -86,9 +87,6 @@ h1 {
 }
 
 h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 100px 30%;
     color: white;
     font-size: 50px;
@@ -188,7 +186,7 @@ h3{
     text-align: center;
     background-color: white;
     color: black;
-    height: 500px;
+    height: auto;
     border: 5px black solid;
     border-radius: 10px;
     margin: 5px 25% 0 25%;
